@@ -20,13 +20,10 @@ data.forEach(function(ufo){
 });
 
 //-----------------------------------------------------------------------------------------------------------------------//
-//Fitlering the data
+//Fitlering the data -  i have tried using tutorial from the video and i tried using the calss lesson
 //-----------------------------------------------------------------------------------------------------------------------//
 // creating submit variable based on button id fitler
 var submit = d3.select("#filter")
-
-//$filterbutton.addEventListener("click", filterbtnclick);
-//$resetfilterbtn.addEventListener("click", resetbtnclick);
 
 // definding funcitonality of submit.on button
 submit.on("click", function(){
